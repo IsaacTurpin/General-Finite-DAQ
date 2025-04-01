@@ -39,6 +39,14 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
 			<Item Name="State.ctl" Type="VI" URL="../controls/State.ctl"/>
+			<Item Name="Configuration Settings.ctl" Type="VI" URL="../controls/Configuration Settings.ctl"/>
+		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Configuration Dialogue Box.vi" Type="VI" URL="../SubVIs/Configuration Dialogue Box.vi"/>
+			<Item Name="Configuration Dialogue Box.lvtest" Type="TestItem" URL="../SubVIs/Configuration Dialogue Box.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Configuration Dialogue Box.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">27C75931-4857-38EF-F18C-40FD1A179344</Property>
+			</Item>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
