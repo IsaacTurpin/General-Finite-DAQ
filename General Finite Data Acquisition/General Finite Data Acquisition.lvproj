@@ -58,10 +58,18 @@
 						<Property Name="utf.test.bind" Type="Str">Recovery File -- Constant.vi</Property>
 						<Property Name="utf.vector.test.bind" Type="Str">9E43009C-95E8-9B28-745B-B1FA8C10CCCE</Property>
 					</Item>
+					<Item Name="Data File Directory -- Constant.vi" Type="VI" URL="../SubVIs/File Handling/File Path Constants/Data File Directory -- Constant.vi"/>
+					<Item Name="Data File Directory -- Constant.lvtest" Type="TestItem" URL="../SubVIs/File Handling/File Path Constants/Data File Directory -- Constant.lvtest">
+						<Property Name="utf.test.bind" Type="Str">Data File Directory -- Constant.vi</Property>
+						<Property Name="utf.vector.test.bind" Type="Str">3F1DD1A7-8A21-F75F-7C46-F8228A457431</Property>
+					</Item>
 				</Item>
 				<Item Name="Recovery File" Type="Folder">
 					<Item Name="Read Binary Recovery File.vi" Type="VI" URL="../SubVIs/File Handling/Recovery File/Read Binary Recovery File.vi"/>
 					<Item Name="Write Binary Recovery File.vi" Type="VI" URL="../SubVIs/File Handling/Recovery File/Write Binary Recovery File.vi"/>
+				</Item>
+				<Item Name="Data Files" Type="Folder">
+					<Item Name="Create File Directories.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Create File Directories.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Configuration Dialogue Box.vi" Type="VI" URL="../SubVIs/Configuration Dialogue Box.vi"/>
@@ -269,6 +277,9 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
