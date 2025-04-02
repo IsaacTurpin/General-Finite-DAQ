@@ -40,6 +40,7 @@
 			<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
 			<Item Name="State.ctl" Type="VI" URL="../controls/State.ctl"/>
 			<Item Name="Configuration Settings.ctl" Type="VI" URL="../controls/Configuration Settings.ctl"/>
+			<Item Name="File Type.ctl" Type="VI" URL="../controls/File Type.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="File Handling" Type="Folder">
@@ -70,6 +71,7 @@
 				</Item>
 				<Item Name="Data Files" Type="Folder">
 					<Item Name="Create File Directories.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Create File Directories.vi"/>
+					<Item Name="Save Data File.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Save Data File.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Configuration Dialogue Box.vi" Type="VI" URL="../SubVIs/Configuration Dialogue Box.vi"/>
