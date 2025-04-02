@@ -47,6 +47,13 @@
 					<Item Name="Read Configuration Data.vi" Type="VI" URL="../SubVIs/File Handling/Configuration File/Read Configuration Data.vi"/>
 					<Item Name="Write Configuration Data.vi" Type="VI" URL="../SubVIs/File Handling/Configuration File/Write Configuration Data.vi"/>
 				</Item>
+				<Item Name="File Path Constants" Type="Folder">
+					<Item Name="Configuration File Path -- Constant.vi" Type="VI" URL="../SubVIs/File Handling/File Path Constants/Configuration File Path -- Constant.vi"/>
+					<Item Name="Configuration File Path -- Constant.lvtest" Type="TestItem" URL="../SubVIs/File Handling/File Path Constants/Configuration File Path -- Constant.lvtest">
+						<Property Name="utf.test.bind" Type="Str">Configuration File Path -- Constant.vi</Property>
+						<Property Name="utf.vector.test.bind" Type="Str">042A95BB-38DF-7127-CDB0-601EC2CAE64D</Property>
+					</Item>
+				</Item>
 			</Item>
 			<Item Name="Configuration Dialogue Box.vi" Type="VI" URL="../SubVIs/Configuration Dialogue Box.vi"/>
 			<Item Name="Configuration Dialogue Box.lvtest" Type="TestItem" URL="../SubVIs/Configuration Dialogue Box.lvtest">
@@ -251,6 +258,8 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
