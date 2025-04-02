@@ -42,6 +42,12 @@
 			<Item Name="Configuration Settings.ctl" Type="VI" URL="../controls/Configuration Settings.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="File Handling" Type="Folder">
+				<Item Name="Configuration File" Type="Folder">
+					<Item Name="Read Configuration Data.vi" Type="VI" URL="../SubVIs/File Handling/Configuration File/Read Configuration Data.vi"/>
+					<Item Name="Write Configuration Data.vi" Type="VI" URL="../SubVIs/File Handling/Configuration File/Write Configuration Data.vi"/>
+				</Item>
+			</Item>
 			<Item Name="Configuration Dialogue Box.vi" Type="VI" URL="../SubVIs/Configuration Dialogue Box.vi"/>
 			<Item Name="Configuration Dialogue Box.lvtest" Type="TestItem" URL="../SubVIs/Configuration Dialogue Box.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Configuration Dialogue Box.vi</Property>
@@ -239,6 +245,12 @@
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
 				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
