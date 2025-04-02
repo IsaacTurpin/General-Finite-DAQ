@@ -53,6 +53,15 @@
 						<Property Name="utf.test.bind" Type="Str">Configuration File Path -- Constant.vi</Property>
 						<Property Name="utf.vector.test.bind" Type="Str">042A95BB-38DF-7127-CDB0-601EC2CAE64D</Property>
 					</Item>
+					<Item Name="Recovery File -- Constant.vi" Type="VI" URL="../SubVIs/File Handling/File Path Constants/Recovery File -- Constant.vi"/>
+					<Item Name="Recovery File -- Constant.lvtest" Type="TestItem" URL="../SubVIs/File Handling/File Path Constants/Recovery File -- Constant.lvtest">
+						<Property Name="utf.test.bind" Type="Str">Recovery File -- Constant.vi</Property>
+						<Property Name="utf.vector.test.bind" Type="Str">9E43009C-95E8-9B28-745B-B1FA8C10CCCE</Property>
+					</Item>
+				</Item>
+				<Item Name="Recovery File" Type="Folder">
+					<Item Name="Read Binary Recovery File.vi" Type="VI" URL="../SubVIs/File Handling/Recovery File/Read Binary Recovery File.vi"/>
+					<Item Name="Write Binary Recovery File.vi" Type="VI" URL="../SubVIs/File Handling/Recovery File/Write Binary Recovery File.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Configuration Dialogue Box.vi" Type="VI" URL="../SubVIs/Configuration Dialogue Box.vi"/>
