@@ -72,6 +72,7 @@
 				<Item Name="Data Files" Type="Folder">
 					<Item Name="Create File Directories.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Create File Directories.vi"/>
 					<Item Name="Save Data File.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Save Data File.vi"/>
+					<Item Name="Write Text File.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Write Text File.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Configuration Dialogue Box.vi" Type="VI" URL="../SubVIs/Configuration Dialogue Box.vi"/>
@@ -282,6 +283,10 @@
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="Show in File System.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Show in File System.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
