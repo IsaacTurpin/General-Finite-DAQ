@@ -73,6 +73,7 @@
 					<Item Name="Create File Directories.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Create File Directories.vi"/>
 					<Item Name="Save Data File.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Save Data File.vi"/>
 					<Item Name="Write Text File.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Write Text File.vi"/>
+					<Item Name="Read Text File.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Read Text File.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Configuration Dialogue Box.vi" Type="VI" URL="../SubVIs/Configuration Dialogue Box.vi"/>
@@ -287,6 +288,8 @@
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
