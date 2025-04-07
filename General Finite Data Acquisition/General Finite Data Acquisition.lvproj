@@ -76,6 +76,7 @@
 					<Item Name="Read Text File.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Read Text File.vi"/>
 					<Item Name="Write CSV File.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Write CSV File.vi"/>
 					<Item Name="Read CSV File.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Read CSV File.vi"/>
+					<Item Name="Write TDMS File.vi" Type="VI" URL="../SubVIs/File Handling/Data Files/Write TDMS File.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Configuration Dialogue Box.vi" Type="VI" URL="../SubVIs/Configuration Dialogue Box.vi"/>
