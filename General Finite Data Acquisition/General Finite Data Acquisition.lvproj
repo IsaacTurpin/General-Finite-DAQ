@@ -50,20 +50,8 @@
 				</Item>
 				<Item Name="File Path Constants" Type="Folder">
 					<Item Name="Configuration File Path -- Constant.vi" Type="VI" URL="../SubVIs/File Handling/File Path Constants/Configuration File Path -- Constant.vi"/>
-					<Item Name="Configuration File Path -- Constant.lvtest" Type="TestItem" URL="../SubVIs/File Handling/File Path Constants/Configuration File Path -- Constant.lvtest">
-						<Property Name="utf.test.bind" Type="Str">Configuration File Path -- Constant.vi</Property>
-						<Property Name="utf.vector.test.bind" Type="Str">042A95BB-38DF-7127-CDB0-601EC2CAE64D</Property>
-					</Item>
 					<Item Name="Recovery File -- Constant.vi" Type="VI" URL="../SubVIs/File Handling/File Path Constants/Recovery File -- Constant.vi"/>
-					<Item Name="Recovery File -- Constant.lvtest" Type="TestItem" URL="../SubVIs/File Handling/File Path Constants/Recovery File -- Constant.lvtest">
-						<Property Name="utf.test.bind" Type="Str">Recovery File -- Constant.vi</Property>
-						<Property Name="utf.vector.test.bind" Type="Str">9E43009C-95E8-9B28-745B-B1FA8C10CCCE</Property>
-					</Item>
 					<Item Name="Data File Directory -- Constant.vi" Type="VI" URL="../SubVIs/File Handling/File Path Constants/Data File Directory -- Constant.vi"/>
-					<Item Name="Data File Directory -- Constant.lvtest" Type="TestItem" URL="../SubVIs/File Handling/File Path Constants/Data File Directory -- Constant.lvtest">
-						<Property Name="utf.test.bind" Type="Str">Data File Directory -- Constant.vi</Property>
-						<Property Name="utf.vector.test.bind" Type="Str">3F1DD1A7-8A21-F75F-7C46-F8228A457431</Property>
-					</Item>
 				</Item>
 				<Item Name="Recovery File" Type="Folder">
 					<Item Name="Read Binary Recovery File.vi" Type="VI" URL="../SubVIs/File Handling/Recovery File/Read Binary Recovery File.vi"/>
@@ -81,11 +69,8 @@
 				</Item>
 			</Item>
 			<Item Name="Configuration Dialogue Box.vi" Type="VI" URL="../SubVIs/Configuration Dialogue Box.vi"/>
-			<Item Name="Configuration Dialogue Box.lvtest" Type="TestItem" URL="../SubVIs/Configuration Dialogue Box.lvtest">
-				<Property Name="utf.test.bind" Type="Str">Configuration Dialogue Box.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">27C75931-4857-38EF-F18C-40FD1A179344</Property>
-			</Item>
 			<Item Name="Acquire Data.vi" Type="VI" URL="../SubVIs/Acquire Data.vi"/>
+			<Item Name="Analyse Data.vi" Type="VI" URL="../SubVIs/Analyse Data.vi"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -320,10 +305,12 @@
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
